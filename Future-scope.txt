@@ -1,0 +1,27 @@
+
+MyVideoPlayerPOC - Future Scope
+
+1) DRM Integration
+- Widevine L1/L3 decryptor elements
+- PlayReady CDM integration  
+
+
+2) Mutliple Codec support
+- we can add support for multiple video/audio codecs based on the content.
+- 4K rendering is also possible by VP9 and opus codecs integration.
+
+
+3) Platform Rendering
+- we can use on different platforms like fireTv/xboX
+
+
+4) ABR Control
+- we can use adaptive bit rate mechanism so that corresponding segment will be played based on bandwidth.
+
+5) Deployment Targets
+- we can use this video player on different platforms like 
+- Smart Tv's
+- Consoles
+- STBs
+- OTT 
+

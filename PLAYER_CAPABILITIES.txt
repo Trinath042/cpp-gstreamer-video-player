@@ -1,0 +1,12 @@
+
+MyVideoPlayer POC Capabilities:
+
+- Built on GStreamer playbin for streaming video playback.
+- Supports HTTP Live Streaming (HLS), MPEG DASH, etc.
+- Allows live switching of audio and subtitle tracks via console commands.
+- Handles basic buffering and low-latency tuning.
+- Monitors pipeline bus for errors, state changes, and end-of-stream.
+- Clean architecture with main loop, async input handling, and safe cleanup.
+- Easily extensible to add DRM decryptor elements for Widevine / PlayReady.
+- Can be extended with custom video/audio sinks targeting Smart TVs or consoles.
+- Basic demonstration; production-level features (security, UI, codecs) would require additions.

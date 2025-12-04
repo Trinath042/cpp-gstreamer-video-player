@@ -1,0 +1,22 @@
+
+Build Instructions (Specific to Linux ubuntu):
+
+1. Install GStreamer development packages and build tools on your system.
+
+    sudo apt update
+    sudo apt install -y build-essential cmake pkg-config libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-libav
+
+2. Place both `main.cpp` and `CMakeLists.txt` in the same directory.
+3. Open a terminal and create a build directory:
+
+    mkdir build
+    cd build
+
+4. Run CMake and build:
+
+    cmake ..
+    make
+
+5. Run the player executable with stream URL:
+
+    ./MyVideoPlayerPOC "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
